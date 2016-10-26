@@ -1,0 +1,84 @@
+Projektvorstellung: um was geht's?
+Homepage: "Blender is the free and open source 3D creation suite. It supports the entirety of the 3D pipeline — modeling, rigging, animation, simulation, rendering, compositing and motion tracking, even video editing and game creation."
+
+
+Ziele: Provide entire 3D pipeline (from modeling to video editing and game creation)
+
+Rechtsform: Foundation, Stiftung
+
+Lizenz: GNU GPL
+
+---------------------
+
+Entstehung Projekt
+
+https://www.blender.org/manual/getting_started/about/history.html: 
+1988, Ton Roosendaal, animation studio NeoGeo
+1995: rewrite of inhouse software -> Blender
+1998: Ton found Not a Number (NaN) to develop Blender "At the core of NaN was a desire to create and distribute a compact, cross-platform 3D application for free." (open source? wer investierte? motivation?)
+1999: NaN/Blender at SIGGRAPH
+2000: venture capitalists: €4.5M, 250,000 users
+2001: NaN failed
+2002 March: Blender Foundation emerged: "The Blender Foundation’s primary goal was to find a way to continue developing and promoting Blender as a community-based open source project."
+2002 Octoper: Blender released under GNU GPL
+2016 September: Version 2.78 released
+
+----------------
+https://www.blender.org/manual/getting_started/about/community.html
+
+Communityaufbau
+Hierarchie:
+Entscheidungsfindung: 
+- Forums
+- Feature requests: "Instead we try to organize ourselves in ways that development and users can cooperate closely." https://wiki.blender.org/index.php/Dev:Doc/Contact
+-- get feedback from community: 
+---- use Right-Click Select: https://rightclickselect.com/p/
+---- Publish proposal in public forums (Blenderartists.org)
+---- Proposing and discussing functionality via bf-funboard (Blender Functionality, https://lists.blender.org/mailman/listinfo/bf-funboard)
+---- issues/todo list
+---- hire freelancer/company
+---- Feature Request area // https://wiki.blender.org/index.php/Dev:Ref/Requests
+
+Einstiegsmöglichkeiten:
+Dev: https://wiki.blender.org/index.php/Dev:Doc/New_Developer_Info
+1. Find area to work on.
+2. Find and contact owner of module.
+3. Post design document on wiki	\\
+4. code
+5. submit patch
+
+----------------------
+
+Communitymitglieder: 
+Homepage: "studios and individual artists, professionals and hobbyists, scientists, students, VFX experts, animators, game artists, modders"
+
+Interessen
+Artists/studios: create art: still lifes, movies, VFX, games, 3D Printing
+scientists: manipulate their 3D scans, e.g. forensic reconstruciton: http://arc-team-open-research.blogspot.ch/2012/05/forensic-facial-reconstruction-with.html
+students: google summer of code
+
+Interessenskonflikte
+Beginners <-> Professionals (Andrew price tried to simplify UI)
+
+kommerzielle Firmen? Studios, donations from entrepreneurs and companies (motivation?)
+
+Stiftungen? Blender Foundation (Ziele: services for Blender-community, Maintain/Improve Blender, Money)
+
+Ziele
+Defined by Ton Roosendaal when he started Blender
+
+Zielfindung
+Ton Rosendaal is leader of main development and chairman of Blender Foundation (non profit organization to make money for Blender), Open Movies
+
+--------------------
+
+Codeverwaltung
+Git repository at http://git.blender.org/blender.git
+Module owners: https://wiki.blender.org/index.php/Dev:Doc/Process/Module_Owners/List
+
+Technologie
+Git, mostly C, 1/3 C++, Python, https://www.openhub.net/p/blender/analyses/latest/languages_summary
+
+Qualitätssicherung
+Commit rules: https://wiki.blender.org/index.php/Dev:Doc/New_Committer_Info
+Coding Style rules: https://wiki.blender.org/index.php/Dev:Doc/Code_Style

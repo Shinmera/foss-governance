@@ -1,0 +1,65 @@
+Projektvorstellung: um was geht's?
+
+https://github.com/mmp/pbrt-v3
+http://www.pbrt.org
+
+Ziele: 
+academic use
+Provide complete application described in the book Physically Based Rendering for students and researchers
+spawned luxrender
+
+Rechtsform: 
+
+Lizenz: BSD license
+
+---------------------
+
+Entstehung Projekt
+
+As example from: Physically Based Rendering: From Theory to Implementation, by Matt Pharr, Wenzel Jakob, and Greg Humphreys
+
+Communityaufbau
+
+Hierarchie:
+Matt Pharr, Wenzel Jakob, Greg Humphreys: Maintain code such that it goes with the book
+
+Entscheidungsfindung: 
+internally
+
+Einstiegsmöglichkeiten:
+http://pbrt.org/users-guide.html: Pull requests: 
+- Mainly bug fixes, portability, unit tests
+- environment (converters)
+- No big feature/code changes since it's the project for the book
+
+----------------------
+
+Communitymitglieder: 
+Matt Pharr, Wenzel Jakob, Greg Humphreys
+
+Interessen
+Sell book
+
+Interessenskonflikte
+Users of project which would like to extend it have to make an own fork (-> luxRender)
+
+Kommerzielle Firmen? none
+
+Stiftungen? none
+
+Ziele
+Maintain codebase, get more test scenes
+
+Zielfindung
+Well defined by the authors
+
+--------------------
+
+Codeverwaltung
+pull requests are checked by the authors and accepted/declined
+
+Technologie
+C++, git, github https://github.com/mmp/pbrt-v3
+
+Qualitätssicherung
+Authors, community finds bugs
