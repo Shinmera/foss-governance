@@ -1,0 +1,45 @@
+Clang
+===============================================
+
+1. Projektvorstellung: Ziele, Rechtsform/Lizenz, Entstehung Projekt
+
+Ziel:
+- Compiler for C, C++, Objective-C, CUDA etc. 
+- Works on top of the open-source LLVM compiler infrastructure, which 
+provides a general backend for compilers. The Clang project is in fact a subproject of the LLVM project. http://clang.llvm.org/get_involved.html
+
+Rechtsform/Lizenz:
+University of Illinois/NCSA License.http://llvm.org/docs/DeveloperPolicy.html#license 
+
+This is a very permissive license, which allows to redistribute both source code and binary files. There are no limitations to commercial use and modifications to the source
+code do not have to be published. This means this license is not copyleft, unlike e.g. the GPL license. The redistributed software only needs to contain the original licensing text and must 
+not be endorsed using the names of the original authors. Furthermore, no warranty for correct and safe execution is given. https://opensource.org/licenses/UoI-NCSA.php
+
+Entstehung Projekt:
+The Clang compiler project was started by Apple in 2005 in order to replace the GCC compiler. The original motivation for the Clang project was to have a fast, modular compiler which is easier to extend
+than GCC and also integrates well with integrated development environments (IDEs). 
+
+http://llvm.org/devmtg/2007-05/09-Naroff-CFE.pdf
+
+
+
+2. Communityaufbau: Hierarchie, Entscheidungsfindung, Einstiegsmöglichkeiten
+Being part of the LLVM project, Clang is governed by the LLVM foundation, which is a non-profit foundation (http://llvm.org/foundation/).
+
+Decisions: by community in mailing lists. Patches are reviewed in mailing lists, after submitting many high quality patches devs can apply for write access (decision up to LLVM board/ chris lattner). 
+Then they can also approve patches and submit small trivial changes without review. 
+
+Getting stsrted: Write patch, ask for review on mailing list.
+
+
+3. Communitymitglieder: Interessen, Interessenskonflikte, Wie sind kommerzielle Firmen involviert?
+Stiftungen? Ziele und Zielfindung
+
+
+4. Codeverwaltung: Qualitätsicherung
+
+
+There exist detailled coding standards:
+http://llvm.org/docs/CodingStandards.html
+
+
