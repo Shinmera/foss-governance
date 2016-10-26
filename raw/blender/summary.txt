@@ -4,7 +4,7 @@ Homepage: "Blender is the free and open source 3D creation suite. It supports th
 
 Ziele: Provide entire 3D pipeline (from modeling to video editing and game creation)
 
-Rechtsform: 
+Rechtsform: Foundation, Stiftung
 
 Lizenz: GNU GPL
 
@@ -15,7 +15,7 @@ Entstehung Projekt
 https://www.blender.org/manual/getting_started/about/history.html: 
 1988, Ton Roosendaal, animation studio NeoGeo
 1995: rewrite of inhouse software -> Blender
-1998: Ton found Not a Number (NaN) to develop Blender "At the core of NaN was a desire to create and distribute a compact, cross-platform 3D application for free."
+1998: Ton found Not a Number (NaN) to develop Blender "At the core of NaN was a desire to create and distribute a compact, cross-platform 3D application for free." (open source? wer investierte? motivation?)
 1999: NaN/Blender at SIGGRAPH
 2000: venture capitalists: €4.5M, 250,000 users
 2001: NaN failed
@@ -60,7 +60,7 @@ students: google summer of code
 Interessenskonflikte
 Beginners <-> Professionals (Andrew price tried to simplify UI)
 
-komerzielle Firmen? Studios, donations from entrepreneurs and companies 
+kommerzielle Firmen? Studios, donations from entrepreneurs and companies (motivation?)
 
 Stiftungen? Blender Foundation (Ziele: services for Blender-community, Maintain/Improve Blender, Money)
 
@@ -68,7 +68,7 @@ Ziele
 Defined by Ton Roosendaal when he started Blender
 
 Zielfindung
-Ton Rosendaal is leader of main development and chairman of Blender Foundation (non profit organization to make money for Blender)
+Ton Rosendaal is leader of main development and chairman of Blender Foundation (non profit organization to make money for Blender), Open Movies
 
 --------------------
 
