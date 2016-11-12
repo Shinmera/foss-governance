@@ -24,7 +24,7 @@
 \usepackage{fancyhdr}
 \usepackage{fix-cm}
 \usepackage{graphicx}
-\usepackage{hyperref}
+\usepackage[breaklinks]{hyperref}
 \usepackage{xcolor}
 \usepackage{listings}
 \usepackage{enumitem}
@@ -41,6 +41,13 @@
 \newdateformat{dyo}{\THEYEAR}
 \setlength{\headheight}{30pt}
 \pagestyle{fancy}
+
+\hypersetup{
+  colorlinks,
+  linkcolor={red!50!black},
+  citecolor={blue!50!black},
+  urlcolor={blue!80!black}
+}
 
 %% These fonts are non-free and can be obtained on
 %% http://practicaltypography.com/equity.html
@@ -67,7 +74,6 @@
 
 \bibliographystyle{plain}
 \bibliography{references}
-
 
 \end{document}
 
