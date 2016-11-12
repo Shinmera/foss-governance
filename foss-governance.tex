@@ -25,6 +25,7 @@
 \usepackage{fix-cm}
 \usepackage{graphicx}
 \usepackage[breaklinks]{hyperref}
+\usepackage[backend=biber,style=numeric,natbib=true]{biblatex}
 \usepackage{xcolor}
 \usepackage{listings}
 \usepackage{enumitem}
@@ -64,6 +65,13 @@
 \cfoot{\thepage\ / \pageref{LastPage}}
 \rfoot{\dmny\today}
 
+\addbibresource{2-1-linux.bib}
+\addbibresource{2-2-clang.bib}
+\addbibresource{2-3-blender.bib}
+\addbibresource{3-1-pbrt.bib}
+\addbibresource{3-2-openvdb.bib}
+\addbibresource{3-3-clasp.bib}
+
 \begin{document}
 \input{0-titlepage}
 \input{1-introduction}
@@ -71,10 +79,7 @@
 \input{3-small-projects}
 \input{4-common-aspects}
 \input{5-conclusion}
-
-\bibliographystyle{plain}
-\bibliography{references}
-
+\printbibliography
 \end{document}
 
 %%% Local Variables:
