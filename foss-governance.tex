@@ -50,6 +50,15 @@
   urlcolor={blue!80!black}
 }
 
+\let\originalsubsection\subsection
+\renewcommand{\subsection}[2]{%
+  \originalsubsection{#1}%
+  \vspace*{-0.8cm}%
+  \begin{flushright}%
+    #2%
+  \end{flushright}%
+}
+
 %% These fonts are non-free and can be obtained on
 %% http://practicaltypography.com/equity.html
 %\setmainfont[Ligatures=TeX]{Equity Text B}
