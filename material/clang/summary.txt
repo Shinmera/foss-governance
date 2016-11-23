@@ -1,3 +1,7 @@
+feedback linux part
+- 'we' instead of 'I'
+- mention 'license'
+
 Clang
 ===============================================
 
