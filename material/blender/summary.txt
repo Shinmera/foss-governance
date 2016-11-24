@@ -6,7 +6,8 @@ Ziele: Provide entire 3D pipeline (from modeling to video editing and game creat
 
 Rechtsform: Foundation, Stiftung
 
-Lizenz: GNU GPL
+Lizenz: GNU GPL, some modules more permissive (Cycles Apache 2.0 to integrate well with other software products, also inhouse) // https://www.blender.org/about/license/
+
 
 ---------------------
 
