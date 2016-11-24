@@ -1,4 +1,11 @@
 \subsection{Clasp}{Nicolas Hafner}
+Clasp\cite{clasp-github} is an implementation of the Common Lisp language standard (ANSI INCITS 226-1994). It is a rather small project in terms of contributors, with only a few select developers actively working on it at the time of writing. \\
+
+Clasp started in Summer 2012\cite{clasp-timeline}, in an effort to create a language implementation that would be suitable for high-level molecular design, while at the same time being able to retain high performance, and access to a large ecosystem of C++ chemistry libraries\cite{clasp-cando}. Common Lisp was chosen due to its high amount of dynamic and flexible language features, as well as its ability to give access to detailed optimisation strategies when necessary\cite{clasp-talk}. \\
+
+The project remained a private endeavour for a long time, until it was published on GitHub in May 2014\cite{clasp-github}. The prospect of a Lisp implementation that could promise seamless interoperation with C++ caused quite a bit of attention upon its release. However, due to frequent issues building the project, lack of documentation, and a long line of bugs, contribution from people outside of Christian Schafmeister himself did not really happen for a good while. \\
+
+Currently the project is still most actively developed by Schafmeister himself, although a few more people have started to contribute as well. Clasp now uses the Cleavir compiler by Robert Strandh\cite{clasp-cleavir} as its final, end-user compiler. Cleavir itself is still under very active development. Strandh and Schafmeister often discuss the future of the two projects together, leading to a close collaboration between the two. While Cleavir in itself, too, is mostly a single-person effort, it recently has also received work from other people. Clasp also makes use of the Ravenbrook Memory Pool System (MPS)\cite{clasp-mps} garbage collector. This, too, has prompted collaboration between Schafmeister and Ravenbrook, in order to improve the MPS for more dynamic and special environments. 
 
 %%% Local Variables:
 %%% mode: latex
